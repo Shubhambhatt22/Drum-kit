@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css?family=Ubuntu');
+
+body{
+    background-image: linear-gradient(to right, #fc5c7d, #6a82fb);
+}
+h1{
+    margin-top: 40px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 7rem;
+  font-weight: bold;
+  color: #fff;
+  text-align: center;
+  letter-spacing: 5px;
+  text-shadow: 3px 3px 20px #ff99cc,
+    -2px 1px 30px #ff99cc;
+    
+}
+
+.w{
+    background-image: url(images/tom1.png);
+}
+.a{
+    background-image: url(images/tom2.png);
+}
+.s{
+    background-image: url(images/tom3.png);
+}
+.d{
+    background-image: url(images/tom4.png);
+}
+.j{
+    background-image: url(images/crash.png);
+}
+.k{
+    background-image: url(images/kick.png);
+}
+.l{
+    background-image: url(images/snare.png);
+}
+
+.Test{
+    text-align: center;
+    margin: 10% auto;
+}
+.drum{
+    width: 170px;
+    height: 170px;
+    border: 10px  rgb(251, 251, 215);
+    display: inline-block;
+    border-style: solid;
+    margin: 8px;
+    font-size: 35px;
+    font-style: oblique;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 2;
+    font-weight: bold;
+    border-radius: 20px;
+    text-align: center;
+    color:#2b2828;
+    text-shadow: 2px 2px pink;
+}
+
+footer{
+    margin: 40px auto;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #404258;
+    text-align: center;
+    letter-spacing: 5px;
+    text-shadow: -1px 1px 0 #41ba45,
+            1px 1px 0 #c63d2b,
+           1px -1px 0 #42afac,
+          -1px -1px 0 #c6c23f;
+}
+
+.press{
+box-shadow: 0 3px 4 0 #DBEDF3;
+opacity: 0.5;
+}
